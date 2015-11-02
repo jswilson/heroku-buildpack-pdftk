@@ -9,7 +9,7 @@ class Pdftk < BaseCustom
   end
 
   def source_url
-    "https://github.com/jswilson/heroku-buildpack-pdftk.git"
+    "https://s3.amazonaws.com/public-pdftk/pdftk.tar.gz"
   end
 
   def used?
